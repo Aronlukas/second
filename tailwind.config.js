@@ -1,3 +1,6 @@
+
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,7 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-
+      fontFamily: {
+        pt: ['var(--font-pt-sans-narrow)', ...fontFamily.sans]
+      }
     },
   },
   plugins: [],
