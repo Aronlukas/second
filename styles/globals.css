@@ -16,3 +16,4 @@
   @apply after:content-[''] after:border-t-2 after:border-t-black after:w-14 after:block after:relative after:transform after:-rotate-3 after:left-1/2 after:-translate-x-1/2;
   @apply hover:after:border-white;
 }
+
